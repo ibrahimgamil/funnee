@@ -5,6 +5,10 @@
 	"version": "0.0.1",
 	"icon":"images\funnee_logo.png",
 	"publisher": "justforfunne",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ibrahimgamil/funnee.git"
+	},
 	"engines": {
 		"vscode": "^1.58.0"
 	},
