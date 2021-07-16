@@ -8,7 +8,7 @@ This extension for Visual Studio Code adds snippets for funnee for TypeScript an
 
 ## funnee Essentials
 
-to create account at - [funnelll][https://www.funnelll.com].
+to create account at - [funnelll](https://www.funnelll.com).
 
 ## Usage
 
