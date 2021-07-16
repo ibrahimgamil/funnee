@@ -1,6 +1,6 @@
 # funnee snippets for VS Code
 
-![Use Extension](images/funne.png)
+![Use Extension](images/funne_logo.png)
 
 **demo pre release**
 
