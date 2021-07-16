@@ -1,0 +1,27 @@
+{
+    "funne": {
+      "prefix": "funne",
+      "body": ["<script src=\"https://private.funnelll.com/scriptserver/scripts?id=${1:your_funne_id}\" type=\"text/javascript\" async></script>"],
+      "description": "funne analytics"
+    },
+    "conv":{
+      "prefix": "conv",
+      "body": ["<!-- Global site tag (gtag.js) - Google Ads: ${1:your_goog_id} -->",
+      "<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-${1:your_goog_id}\"></script>",
+      "<script>",
+          "window.dataLayer = window.dataLayer || [];",
+          "function gtag(){dataLayer.push(arguments);}",
+          "gtag('js', new Date());",
+          "gtag('config', 'AW-${1:your_goog_id}');",
+      "</script>",
+    "",
+      "<!-- Event snippet for Example conversion page -->",
+        "<script>",
+          "gtag('event', 'conversion', {'send_to': 'AW-${1:your_goog_id}/${2:rest_of_url}',",
+            "'value': ${3:1},",
+            "'currency': '${4:USD}'",
+          "});",
+        "</script>"],
+      "description": "funne analytics"
+    }
+}
