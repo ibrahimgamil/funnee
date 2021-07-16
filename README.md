@@ -1,5 +1,7 @@
 # funnee snippets for VS Code
 
+![Use Extension](images/funne.png)
+
 **demo pre release**
 
 This extension for Visual Studio Code adds snippets for funnee for TypeScript and HTML.
